@@ -1,0 +1,44 @@
+/* Background */
+body {
+    background-image: url('../11.png'); /* Pastikan path gambar sudah benar */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; /* Membuat background tetap saat scroll */
+    height: 100vh;
+    color: #ffffff; /* Warna font */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+/* Kontainer utama */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Tombol Pintasan */
+.shortcut-link {
+    display: block;
+    margin-top: 20px; /* Jarak dari elemen sebelumnya */
+    background-color: yellow; /* Warna latar belakang */
+    border: 1px solid yellow;
+    width: 370px; /* Ukuran tombol */
+    padding: 10px 60px; /* Padding untuk tombol */
+    border-radius: 10px; /* Sudut yang lebih lembut */
+    text-align: center; /* Pusatkan teks */
+    transition: background-color 0.3s, font-size 0.3s; /* Transisi efek */
+    font-size: 16px; /* Ukuran font standar */
+}
+
+.shortcut-link:hover {
+    background-color: #ffcc00; /* Warna latar belakang saat hover */
+    font-size: 17px; /* Membesarkan ukuran font */
+    font-weight: 550; /* Menambah ketebalan font */
+}
+
+/* Styling untuk teks dan heading */
+h2 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}

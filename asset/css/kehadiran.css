@@ -1,0 +1,108 @@
+/* Background */
+body {
+    background-image: url('../11.png'); /* Ganti dengan path yang sesuai untuk gambar background */
+    background-size: cover; /* Gambar menutupi seluruh layar */
+    background-position: center center; /* Memposisikan gambar di tengah */
+    background-attachment: fixed; /* Gambar tetap saat scroll */
+    height: 100vh; /* Memastikan tinggi penuh */
+    color: #ffffff; /* Warna font putih */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling untuk tabel */
+.container {
+    margin-top: 50px; /* Menjaga jarak dari navbar */
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px; /* Memberikan jarak bawah pada judul */
+}
+
+.table-responsive {
+    max-width: 100%;
+    margin-bottom: 50px; /* Memberikan jarak bawah pada tabel */
+}
+
+.table {
+    align-items: center;
+    width: 80%;
+    border: 1px solid #dee2e6; /* Border tabel */
+    border-radius: 8px; /* Border melengkung */
+    background-color: rgba(0, 0, 0, 0.7); /* Background tabel hitam transparan */
+    color: #ffffff; /* Warna font putih */
+}
+
+.table thead th {
+    background-color: rgba(255, 255, 255, 0.2); /* Background header tabel transparan */
+    color: #ffffff; /* Font header putih */
+}
+
+.table-bordered td, .table-bordered th {
+    border: 2px solid #dee2e6; /* Border pada sel */
+    padding: 10px; /* Memberikan jarak pada isi sel */
+}
+
+.table img {
+    max-width: 80px; /* Ukuran gambar maksimal */
+    height: auto; /* Menjaga proporsi gambar */
+}
+
+/* Button Action */
+.btn {
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    margin: 5px 0;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-warning {
+    background-color: #f0ad4e;
+    border: none;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    border: none;
+    color: white;
+}
+
+.btn-warning:hover, .btn-danger:hover {
+    transform: translateY(-3px); /* Efek hover untuk tombol */
+}
+
+.btn-warning:focus, .btn-danger:focus {
+    outline: none;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.btn-danger:hover {
+    background-color: #c9302c;
+}
+
+/* Styling form grup */
+.form-group {
+    border: 1px solid #ced4da; /* Border form */
+    border-radius: 5px; /* Border melengkung */
+    padding: 10px; /* Padding di dalam form */
+    background-color: rgba(255, 255, 255, 0.7); /* Background form dengan transparansi */
+}
+
+/* Tabel Responsif */
+.table-responsive {
+    max-width: 100%;
+    overflow-x: auto;
+    margin-top: 30px;
+}

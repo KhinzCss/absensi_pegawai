@@ -1,0 +1,73 @@
+/* General styles */
+body {
+    padding-top: 30px;
+    background-image: url('../11.png'); 
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.15);
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Form styles */
+.form-group label {
+    font-weight: bold;
+    display: block; /* Membuat label mengambil seluruh baris */
+    margin-bottom: 10px; /* Memberi jarak antara label dan input */
+    text-align: left; /* Menyelaraskan teks label ke kiri */
+}
+
+.form-control {
+    width: 100%; /* Memastikan input mengambil lebar penuh */
+    border-radius: 5px;
+    padding: 12px 15px; /* Padding lebih besar agar input lebih nyaman */
+    font-size: 16px;
+    box-sizing: border-box; /* Memastikan padding dihitung dalam lebar */
+    margin-bottom: 15px; /* Memberikan jarak antara input dan elemen berikutnya */
+}
+
+/* Button styles */
+.btn {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+    padding: 12px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Tombol juga mengambil lebar penuh */
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Alert styles */
+.alert-danger {
+    color: white;
+    background-color: #f44336;
+    border-color: #f44336;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Additional improvements */
+.form-control, .btn {
+    display: block; /* Agar elemen-elemen ini berada dalam satu kolom */
+}
